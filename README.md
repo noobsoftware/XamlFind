@@ -32,6 +32,13 @@ foreach(Element e in elements) {
 }
 ```
 
+# Copying Elements
+```
+StackLayout first = new StackLayout();
+
+StackLayout copy = (StackLayout)this.copy(first);
+```
+
 # Todos:
   - Update to .NET MAUI (Still waiting for AbsoluteLayout to be supported by .NET MAUI)
   - Possibly conform better to HTML/CSS standards for example use StyleClass instead of StyleId for classes
