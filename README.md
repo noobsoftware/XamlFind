@@ -1,5 +1,9 @@
 # XamlFind
 
+# Nuget Package
+
+https://www.nuget.org/packages/XamlFind/
+
 # To use the base_page class
 
 Make your MainPage inherit from base_page and create a new namespace within your XAML with the name of your assembly for example: xmlns:d="clr-namespace:Player;assembly=Player" for my project with the namespace Player and then set the type of your page to d:base_page instead of ContentPage
