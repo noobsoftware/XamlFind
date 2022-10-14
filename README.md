@@ -36,3 +36,4 @@ foreach(Element e in elements) {
   - Update to .NET MAUI (Still waiting for AbsoluteLayout to be supported by .NET MAUI)
   - Possibly conform better to HTML/CSS standards for example use StyleClass instead of StyleId for classes
   - Support more selectors
+  - Organize code better and remove some functions
